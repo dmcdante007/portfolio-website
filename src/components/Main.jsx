@@ -1,7 +1,9 @@
 import React from "react";
 import valley from "../assets/valley.jpg";
 import { TypeAnimation } from "react-type-animation";
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+import myResume from '../assets/Swaraj_Meshram__Resume2024__  (1).pdf'
 
 const Main = () => {
   return (
@@ -35,10 +37,18 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
+            <a href={myResume} download>
+            <AiOutlineMail className="cursor-pointer" size={20} />
+            </a>
+              <a href="https://www.instagram.com/its_dante_7/?next=%2F">
             <FaInstagram className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://github.com/dmcdante007">
             <FaGithub className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://www.linkedin.com/in/swaraj-meshram-1498n/">
             <FaLinkedin className="cursor-pointer" size={20} />
+            </a>
           </div>
         </div>
       </div>
