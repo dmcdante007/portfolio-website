@@ -19,16 +19,19 @@ const Projects = () => {
           img={expImg}
           title="Expense App"
           language="React JS"
+          gitLink="https://github.com/dmcdante007/Expense-tracker-React-"
         ></ProjectItem>
         <ProjectItem
           img={foodImg}
           title="Resturant App"
           language="React JS"
+          gitLink="https://github.com/dmcdante007/Food-order-App"
         ></ProjectItem>
         <ProjectItem
           img={sizmuImg}
           title="Music App"
           language="HTML CSS JS"
+          gitLink="https://github.com/dmcdante007/Sicmu--Responsive-music-website"
         ></ProjectItem>
       </div>
     </div>

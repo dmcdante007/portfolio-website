@@ -8,7 +8,7 @@ const ProjectItem = (props) => {
                 {props.title}
             </h3>
             <p className="pb-4 pt-2 text-white text-center">{props.language}</p>
-            <a href='/'>
+            <a href={props.gitLink}>
                 <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">More Info</p>
             </a>
         </div>
