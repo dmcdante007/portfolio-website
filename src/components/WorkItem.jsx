@@ -1,22 +1,19 @@
 import React from "react";
-import Work from './Work'
-const data = [
-    {year:2021,
-    title:'Front-end developer - Infosys',
-    duration: '2 Years 2 Months',
-    details: "Executed project, focused on designing and implementing a user-friendly platform for clients to raise tickets and monitor progress details.HTML for content structuring, CSS for interface design, and JavaScript alongside React.js for interactivity.GitHub for efficient codebase management."
-},
-{
-    year:2024,
-    title: 'Freelance',
-    duration: '2 Months',
-    details: "Developed and hosted a website on go-daddy.com using HTML5, CSS3, JS according to CLient requirement. "
-}
-]
-const WorkItem = ()=>{
+
+const WorkItem = (props)=>{
 
     return (
-        <Work id='work' class />
+        <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
+            <li className="mb-10 ml-4 ">
+                <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border-white"/>
+                <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
+                    <span className="inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md">{props.year}</span>
+                    <span className="text-lg dont-semibold text-[#001b5e]">{props.title}</span>
+                    <span className="my-1 text-sm font-normal leading-none text-stone-400">{props.duration}</span>
+                </p>
+                <p className="my-2 text-base font-normal text-stone-500">{props.details}</p>
+            </li>
+        </ol>
     )
 }
 
