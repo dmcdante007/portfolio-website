@@ -13,7 +13,7 @@ const data = [
     title: "Freelance",
     duration: "2 Months",
     details:
-      "Developed and hosted a website on go-daddy.com using HTML5, CSS3, JS according to CLient requirement. ",
+      "Developed and hosted a website on go-daddy.com using HTML5, CSS3, JS according to Client requirement. ",
   },
 ];
 const Work = (props) => {
