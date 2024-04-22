@@ -3,7 +3,7 @@ import valley from "../assets/valley.jpg";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import myResume from '../assets/Swaraj_Meshram__Resume2024__  (1).pdf'
+import myResume from "../assets/Swaraj_Meshram__Resume2024__  (1).pdf";
 
 const Main = () => {
   return (
@@ -18,10 +18,11 @@ const Main = () => {
             I'm Swaraj Meshram
           </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800 ">
-            I'm a&nbsp;<TypeAnimation
+            I'm a&nbsp;
+            <TypeAnimation
               sequence={[
                 " Web Developer",
-                1000, 
+                1000,
                 " Front-End Developer",
                 1000,
                 " React.js Developer",
@@ -38,16 +39,16 @@ const Main = () => {
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
             <a href={myResume} download>
-            <AiOutlineMail className="cursor-pointer" size={20} />
+              <AiOutlineMail className="cursor-pointer" size={20} />
             </a>
-              <a href="https://www.instagram.com/its_dante_7/?next=%2F">
-            <FaInstagram className="cursor-pointer" size={20} />
+            <a href="https://www.instagram.com/its_dante_7/?next=%2F">
+              <FaInstagram className="cursor-pointer" size={20} />
             </a>
             <a href="https://github.com/dmcdante007">
-            <FaGithub className="cursor-pointer" size={20} />
+              <FaGithub className="cursor-pointer" size={20} />
             </a>
             <a href="https://www.linkedin.com/in/swaraj-meshram-1498n/">
-            <FaLinkedin className="cursor-pointer" size={20} />
+              <FaLinkedin className="cursor-pointer" size={20} />
             </a>
           </div>
         </div>
