@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem";
 import expImg from "../assets/Expense-tracker.jpg";
 import foodImg from "../assets/Real-food.jpg";
 import sizmuImg from "../assets/sizmu.jpg";
-import admin from "../assets/admin-dash.jpg";
+import admin from "../assets/admin-dasd.jpg";
 import form from "../assets/form.jpg"
 
 const Projects = () => {
