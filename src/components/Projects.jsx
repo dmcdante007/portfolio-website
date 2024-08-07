@@ -38,7 +38,7 @@ const Projects = () => {
           img={admin}
           title="Admin-Dashboard"
           language="HTML CSS JS ReactJS MUI Formik FullCalendar Data Grid"
-          gitLink="https://github.com/dmcdante007/Sicmu--Responsive-music-website"
+          gitLink="https://github.com/dmcdante007/AdminDashboard"
         ></ProjectItem>
       </div>
     </div>
