@@ -3,7 +3,8 @@ import ProjectItem from "./ProjectItem";
 import expImg from "../assets/Expense-tracker.jpg";
 import foodImg from "../assets/Real-food.jpg";
 import sizmuImg from "../assets/sizmu.jpg";
-import admin from "../assets/admin-dash.JPG"
+import admin from "../assets/admin-dash.jpg";
+import form from "../assets/form.jpg"
 
 const Projects = () => {
   return (
@@ -19,13 +20,13 @@ const Projects = () => {
         <ProjectItem
           img={expImg}
           title="Expense App"
-          language="React JS"
+          language="React JS Context API Axios"
           gitLink="https://github.com/dmcdante007/Expense-tracker-React-"
         ></ProjectItem>
         <ProjectItem
           img={foodImg}
           title="Resturant App"
-          language="React JS"
+          language="ReactJS Axios Context API React Hooks"
           gitLink="https://github.com/dmcdante007/Food-order-App"
         ></ProjectItem>
         <ProjectItem
@@ -37,9 +38,16 @@ const Projects = () => {
         <ProjectItem
           img={admin}
           title="Admin-Dashboard"
-          language="HTML CSS JS ReactJS MUI Formik FullCalendar Data Grid"
+          language="HTML CSS JS ReactJS MUI Formik FullCalendar Data Grid Nivo charts React pro sidebar"
           gitLink="https://github.com/dmcdante007/AdminDashboard"
         ></ProjectItem>
+        <ProjectItem
+          img={form}
+          title="Data Entry Form"
+          language="HTML CSS JS ReactJS REDUX Axios React Hooks"
+          gitLink="https://github.com/dmcdante007/UserData-React-Assignment-by-Pixel6-"
+        ></ProjectItem>
+       
       </div>
     </div>
   );
